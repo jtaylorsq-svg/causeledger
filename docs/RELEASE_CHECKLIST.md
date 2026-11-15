@@ -13,9 +13,9 @@
 
 ## Required before final release
 
-- [ ] Create separate GitHub repository and verify its visibility and source contents.
+- [x] Create separate public GitHub repository and verify sanitized source contents (78eaf97).
 - [ ] Enable private vulnerability reporting.
-- [ ] Run configured CI on Python 3.11/3.12/3.13 in GitHub.
+- [x] Run configured CI on Python 3.11/3.12/3.13 in GitHub (run 43685457641, all passed).
 - [ ] Pass interactive browser QA, including mobile/keyboard and export.
 - [ ] Capture and inspect actual application screenshots using fictional data.
 - [ ] Review remaining limitations and publish v0.1.0 release notes.
