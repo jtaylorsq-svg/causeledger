@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Complete interactive browser QA and capture real screenshots",
+    "category": "release gate",
+    "problem": "Exercise creation, all commands, blocked closure, save/reload, reopens, evidence withdrawal, stale versions, export and print. Check desktop and 390px layouts, keyboard focus and console.",
+    "acceptance": "Record browser/version and results; fix failures; commit actual fictional-data screenshots. Do not replace this with API-only testing.",
+    "status": "draft-not-published"
+  },
+  {
+    "title": "Retire disproven hypotheses without erasing history",
+    "category": "workflow",
+    "problem": "Every proposed cause currently must be verified and actioned, making a disproven hypothesis hard to retain accurately.",
+    "acceptance": "Add ruled-out/superseded state with actor, rationale and accepted disconfirming evidence. Preserve history. Require an active verified occurrence and escape cause. Test downstream invalidation.",
+    "status": "draft-not-published"
+  },
+  {
+    "title": "Revise action plans with explicit invalidation",
+    "category": "workflow",
+    "problem": "Action plans currently cannot be corrected through a supported revision command.",
+    "acceptance": "Allow owner/date corrections and controlled changes to cause, deliverable or effectiveness plan. Invalidate implementation/results when technical changes affect prior proof. Preserve earlier snapshots and test stale revisions.",
+    "status": "draft-not-published"
+  },
+  {
+    "title": "Add validated export restore and schema migrations",
+    "category": "durability",
+    "problem": "JSON export can be inspected but cannot yet be restored through the app.",
+    "acceptance": "Validate format, schema, record sizes, referential integrity, chain and case revisions before writes. Reject malformed or partial files atomically. Add round-trip and rollback tests; document backup compatibility.",
+    "status": "draft-not-published"
+  },
+  {
+    "title": "Preserve source evidence attachments safely",
+    "category": "evidence",
+    "problem": "Text references do not retain source bytes, limiting review and traceability.",
+    "acceptance": "Content hashes, explicit size/type limits, safe file names, no executable rendering, authenticated download policy for future server mode, export/backup inclusion and tests for traversal/oversize.",
+    "status": "draft-not-published"
+  },
+  {
+    "title": "Design authenticated team deployment before enabling network hosting",
+    "category": "security",
+    "problem": "Current operator names are self-reported and the HTTP service is loopback-only.",
+    "acceptance": "Threat model first. Define identities, roles, per-command authorization, transport, CSRF, session handling, backup and audit trust anchor. Add cross-user and concurrency tests. Keep loopback default until reviewed.",
+    "status": "draft-not-published"
+  }
+]

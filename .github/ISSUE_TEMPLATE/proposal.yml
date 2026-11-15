@@ -1,0 +1,17 @@
+name: Improvement proposal
+description: Propose a concrete workflow improvement
+title: "Proposal: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What investigation decision is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Proposed behavior and acceptance criteria
+      description: Use fictional examples only. Explain evidence and invalidation behavior.
+    validations:
+      required: true

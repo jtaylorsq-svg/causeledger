@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causeledger"
+version = "0.1.0rc1"
+description = "Evidence-driven corrective action for manufacturing investigations"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "CauseLedger contributors"}]
+dependencies = []
+
+[project.scripts]
+causeledger = "causeledger.server:main"
+
+[tool.setuptools.package-data]
+causeledger = ["static/*"]
+
+[tool.setuptools.packages.find]
+include = ["causeledger*"]
