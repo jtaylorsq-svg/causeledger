@@ -1,4 +1,6 @@
-# Local validation record
+# Historical local validation record
+
+For the current source-publication and GitHub CI evidence, see [2026-11-15 requalification](QA-2026-11-15.md). The table below records the original candidate checks, not the present repository state.
 
 Date: 2026-10-25. Candidate: 0.1.0rc1. Runtime: Python 3.12.14.
 
