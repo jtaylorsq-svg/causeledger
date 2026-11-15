@@ -6,7 +6,7 @@ These are genuine outstanding requirements, not claims of user demand or existin
 
 - Complete browser QA: new case, full demo, save/reload, blocked closure, correction, evidence withdrawal, print, export, stale revisions; desktop and narrow mobile layouts, keyboard operation and console errors.
 - Capture actual screenshots with fictional data.
-- Create a separate public repository, publish the audited source and verify remote CI.
+- Completed: separate public repository and sanitized source published; Python 3.11/3.12/3.13 CI passed. See [qualification evidence](QA-2026-11-15.md). This does not close the browser acceptance gate.
 - Enable private security reporting and check package/name availability.
 
 ## v0.2: make investigations easier to maintain
